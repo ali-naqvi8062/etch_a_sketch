@@ -1,6 +1,59 @@
 body {
-
-    background-color: black;
-    color: white;
+    margin: 0;
+    background-color: white;
+    color: black;
 
 }
+
+.pane {
+
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title {
+
+    height: 75px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.game {
+
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.options {
+
+    height: 405px;
+    width: 400px;
+    border: 1px solid green;
+
+
+}
+
+.app {
+
+    height: 400px;
+    width: 300px;
+    border: 1px solid red;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.row {
+
+    display: flex;
+
+}
+
+.box {
+
+    border: 0.1px solid blue;
+    height:24px;
+    width:24px;
+}
+
