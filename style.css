@@ -28,10 +28,14 @@ body {
 
 .options {
 
-    height: 405px;
+    height: 400px;
     width: 400px;
-    border: 1px solid green;
-
+    border-right: 1px solid rgb(148, 151, 148);
+    border-bottom: 1px solid rgb(148, 151, 148);
+    display: grid;
+    grid-template-columns: repeat(64, 2fr);
+    grid-template-rows: repeat(64, 2fr);
+    margin-bottom: 50px;
 
 }
 
@@ -44,16 +48,10 @@ body {
     margin-right: 100px;
 }
 
-.row {
-
-    display: flex;
-
-}
-
 .box {
 
-    border: 0.1px solid blue;
-    height:24px;
-    width:24px;
+    border-top: 1px solid rgb(165, 169, 165);
+    border-left: 1px solid rgb(165, 169, 165);
+
 }
 
