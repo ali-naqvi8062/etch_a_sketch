@@ -13,4 +13,20 @@ btn2.addEventListener('click', function (e) {
     
     }
 
+    const canvas = document.querySelectorAll('.box');
+
+    console.log(canvas);
+
+    for (let k=0; k<4096;k++){
+        canvas[k].addEventListener('mouseover', function (e){
+
+            setInterval(() => {
+                canvas[k].style.background = 'black';;
+            }, 10);
+            
+
+        });
+    }
+
 });
+
